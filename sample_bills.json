@@ -1,0 +1,50 @@
+[
+  {
+    "order": {
+      "id": 1,
+      "mode": "Dine-In",
+      "payment_method": "Cash",
+      "subtotal": 220.0,
+      "gst": 11.0,
+      "discount": 0.0,
+      "total": 231.0,
+      "created_at": "2025-08-16T19:22:11"
+    },
+    "items": [
+      {
+        "id": 1,
+        "order_id": 1,
+        "item_id": 2,
+        "item_name": "Paneer Butter Masala",
+        "qty": 1,
+        "unit_price": 220.0,
+        "gst_percent": 5.0,
+        "line_total": 231.0
+      }
+    ]
+  },
+  {
+    "order": {
+      "id": 2,
+      "mode": "Dine-In",
+      "payment_method": "UPI",
+      "subtotal": 20.0,
+      "gst": 1.0,
+      "discount": 0.0,
+      "total": 21.0,
+      "created_at": "2025-08-16T19:22:38"
+    },
+    "items": [
+      {
+        "id": 2,
+        "order_id": 2,
+        "item_id": 4,
+        "item_name": "Tandoori Roti",
+        "qty": 1,
+        "unit_price": 20.0,
+        "gst_percent": 5.0,
+        "line_total": 21.0
+      }
+    ]
+  }
+]
